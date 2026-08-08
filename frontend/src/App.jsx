@@ -71,7 +71,9 @@ function App() {
   
   // Connection Settings
   const [backendUrl, setBackendUrl] = useState(() => {
-    return localStorage.getItem('studystack_backend_url') || 'http://localhost:5000';
+    return localStorage.getItem('studystack_backend_url') || 
+           import.meta.env.VITE_BACKEND_URL || 
+           'http://localhost:5000';
   });
   const [testConnStatus, setTestConnStatus] = useState(''); // 'success' | 'error' | ''
   const [testConnMsg, setTestConnMsg] = useState('');
