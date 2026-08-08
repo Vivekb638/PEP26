@@ -1,0 +1,22 @@
+[
+  {
+    "title": "DevOps",
+    "instructor": "John",
+    "price": 5999
+  },
+  {
+    "title": "Node.js",
+    "instructor": "Alice",
+    "price": 4999
+  },
+  {
+    "title": "React",
+    "instructor": "Bob",
+    "price": 3999
+  },
+  {
+    "title": "MongoDB",
+    "instructor": "David",
+    "price": 2999
+  }
+]
